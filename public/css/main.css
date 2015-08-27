@@ -11,6 +11,129 @@
 * Why did we do it? Why the hell not?
 *
 --------------------------------------------------------------------*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 .align-left {
   text-align: left;
 }
@@ -26,7 +149,7 @@ html {
 body {
   position: relative;
   background: #caedef;
-  font-family: "ff-tisa-web-pro", Georgia, Times, serif;
+  font-family: 'ff-tisa-web-pro', Georgia, Times, serif;
   font-weight: 400;
   text-align: center;
   color: #333;
@@ -34,7 +157,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -238,7 +361,7 @@ a:hover {
   position: relative;
   z-index: 2;
   background: #444;
-  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   color: #fff;
@@ -309,7 +432,7 @@ a.button {
   border: none;
   margin-top: 30px;
   padding: 10px 20px 6px;
-  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
   font-size: 20px;
   text-align: center;
   text-transform: uppercase;
@@ -335,7 +458,7 @@ form {
 form label {
   padding-left: 5px;
   display: block;
-  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
   font-weight: 900;
   font-size: 13px;
   text-transform: uppercase;
@@ -348,7 +471,7 @@ form textarea {
   padding: 10px;
   border: 1px solid rgba(0,0,0,0.13);
   border-radius: 3px;
-  font-family: "ff-tisa-web-pro", Georgia, Times, serif;
+  font-family: 'ff-tisa-web-pro', Georgia, Times, serif;
   font-size: 16px;
 }
 form .button {
@@ -406,7 +529,7 @@ form .alert.success {
   display: block;
   position: absolute;
   background: #bc8e68;
-  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   text-align: left;
@@ -2519,7 +2642,7 @@ form .alert.success {
   content: "Don't forget me!" !important;
   background: #f4eb93;
   box-shadow: 4px 4px rgba(0,0,0,0.13);
-  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 700;
   text-transform: uppercase;
@@ -3505,7 +3628,7 @@ form .alert.success {
   display: inline-block;
   border-radius: 100px 50px 70px 70px/50px 40px 50px 70px;
   box-shadow: 8px 8px rgba(0,0,0,0.13);
-  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
   font-weight: 900;
   font-size: 16px;
   line-height: 20px;
